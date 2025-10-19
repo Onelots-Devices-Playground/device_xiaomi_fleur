@@ -14,6 +14,11 @@ $(call inherit-product, device/xiaomi/fleur/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# EvolutionX flags
+BUILD_BCR := true
+EVO_BUILD_TYPE := Official
+TARGET_USES_MINI_GAPPS := true
+
 PRODUCT_NAME := lineage_fleur
 PRODUCT_DEVICE := fleur
 PRODUCT_MANUFACTURER := Xiaomi

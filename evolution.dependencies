@@ -1,0 +1,28 @@
+[
+  {
+    "repository": "vendor_xiaomi_fleur",
+    "target_path": "vendor/xiaomi/fleur"
+  },
+  {
+    "repository": "kernel_xiaomi_mt6781",
+    "target_path": "kernel/xiaomi/mt6781"
+  },
+  {
+    "repository": "mt6781-devs/android_vendor_mediatek_ims",
+    "target_path": "vendor/mediatek/ims",
+    "remote": "github-non-los",
+    "branch": "android-16"
+  },
+  {
+    "repository": "mt6781-devs/android_hardware_mediatek",
+    "target_path": "hardware/mediatek",
+    "remote": "github-non-los",
+    "branch": "lineage-22.2"
+  },
+  {
+    "repository": "mt6781-devs/android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr",
+    "remote": "github-non-los",
+    "branch": "lineage-22.2"
+  }
+]
